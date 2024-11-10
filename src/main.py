@@ -56,6 +56,7 @@ def main():
     original_data = np.column_stack((X1, X2))
     
     # Auto-tune custom balance weight using binary search
+    # This is the back propagation part
     print("\nAuto-tuning custom balance weight...")
     left, right = 0.1, 0.9
     best_custom_weight = None
