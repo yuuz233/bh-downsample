@@ -1,0 +1,13 @@
+/data/
+/venv/
+
+# Common Python files to ignore
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv
+env/
+ENV/ 
